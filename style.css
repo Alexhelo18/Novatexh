@@ -1,0 +1,181 @@
+/* Container della navbar */
+.navbar {
+  display: flex;
+  align-items: center;        /* centra verticalmente tutto */
+  justify-content: space-between;
+  padding: 0 5%;
+  height: 80px;
+   background-color:rgb(249, 243, 239);
+}
+
+/* Logo */
+.logo {
+  height: 45px;
+  width: auto;
+  text-align: left;
+}
+
+/* Menu */
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(34, 75, 104);
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
+
+.navbar-divider {
+  height: 2px;
+  background-color: #577aac;
+  border: none;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  display: block;
+  margin: 0;}
+  .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+html{
+    background-color: rgb(27, 60, 83);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+nav{
+    text-align: center;
+}
+.sfondo {
+    background-image: url(./images/Scheda\ madre\ 2.png);
+    background-size: cover;
+    background-position: center 30%;
+    height: 45vh;
+    display: flex;
+    text-shadow: 1px 1px 5px black;
+    margin-top: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    position: relative;
+    align-items: center;
+
+}
+.titoli{
+  font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding-left: 30px;
+}
+.descrizioni{
+  font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    ;
+
+}
+a {
+  all: unset;
+  cursor: pointer;
+}
+.home2{
+  background-color: rgb(249, 243, 239);
+  border-radius: 20px;
+  height: 30vh;
+  justify-content: left;
+  padding-left: 30px;
+  padding-top: 5px;
+  margin-top: 20px;
+  border: 1px solid #315094;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+
+}
+p{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.benvenuto{
+  font-family: "Roboto", sans-serif;
+  color: #1a1a1a;
+  line-height: 30px;
+}
+.sotto{
+  background-color: rgba(33, 78, 146, 0.438);
+  width: 100%;
+  height: 190px;
+  display: flex;
+  justify-content: left; /* centra orizzontalmente */
+  align-items: left;     /* centra verticalmente */
+  text-align: left;
+  position: relative;
+  vertical-align: middle;
+  position: absolute;
+  justify-content: left;
+  align-items: center;
+
+}
+.product-card-horizontal {
+  display: flex;
+  align-items: top; /* Allinea verticalmente */
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.product-card-horizontal img {
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.product-info {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.product-info h3 {
+  margin: 0 0 10px;
+}
+
+.product-info p {
+  margin: 0 0 10px;
+  color: #637ea5;
+}
+
+.product-info span {
+  font-weight: bold;
+  color: #000;
+}
